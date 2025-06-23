@@ -297,3 +297,20 @@ footer a {
     padding-top: 60px;
   }
 }
+@media print {
+  header {
+    display: none;
+  }
+  iframe {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  section {
+    display: none;
+  }
+}
